@@ -3,7 +3,9 @@
 // A small script that randomly selects a public API endpoint, queries it, and prints the result.
 // This can be extended with additional endpoints, auth headers, or more complex response validation.
 
-import apis from "./apis.json" assert { type: "json" };
+import { readFileSync } from "fs";
+
+const apis = JSON.parse(readFileSync(new URL("./apis.json", import.meta.url), "utf8"));
 
 function randomItem(arr) {
   return arr[Math.floor(Math.random() * arr.length)];
