@@ -1,0 +1,27 @@
+[
+  {
+    "name": "GitHub",
+    "url": "https://api.github.com",
+    "info": "Basic GitHub API root (rate-limited)."
+  },
+  {
+    "name": "Agify",
+    "url": "https://api.agify.io/?name=michael",
+    "info": "Predict age by name."
+  },
+  {
+    "name": "HttpBin",
+    "url": "https://httpbin.org/get",
+    "info": "HTTP request/response testing."
+  },
+  {
+    "name": "Dog CEO",
+    "url": "https://dog.ceo/api/breeds/image/random",
+    "info": "Random dog image."
+  },
+  {
+    "name": "Bored",
+    "url": "https://www.boredapi.com/api/activity",
+    "info": "Get a random activity suggestion."
+  }
+]

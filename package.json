@@ -1,0 +1,15 @@
+{
+  "name": "api-checker",
+  "version": "0.1.0",
+  "description": "A small project to randomly check a set of public APIs and report status.",
+  "type": "module",
+  "scripts": {
+    "check": "node ./check-api.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": ["api", "checker", "random", "status"],
+  "author": "",
+  "license": "MIT"
+}
